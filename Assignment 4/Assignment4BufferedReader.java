@@ -3,19 +3,19 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 public class Assignment4BufferedReader {
     public static void main(String[] args) throws IOException {
-        BufferedReader dataln = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader readln = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.print("Enter height in cm: ");
-        double height = Double.parseDouble(dataln.readLine());
+        double height = Double.parseDouble(readln.readLine());
 
         System.out.print("Enter age: ");
-        int age = Integer.parseInt(dataln.readLine());
+        int age = Integer.parseInt(readln.readLine());
 
         System.out.print("Enter citizenship code ('C' for citizen of Endor, 'N' for non-citizen): ");
-        String citizenship = dataln.readLine();
+        String citizenship = readln.readLine();
 
         System.out.print("Enter recommendee code ('R' for recommendee, 'N' for non-recommendee): ");
-        String recommendee = dataln.readLine();
+        String recommendee = readln.readLine();
 
         String status;
 
